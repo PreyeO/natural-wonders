@@ -1,0 +1,81 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar{
+  background-color:#F55A5A;
+  max-width: 100%;
+  height: 40px;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.card{
+  display: flex;
+  padding-top: 50px;
+  padding-left: 40px;
+  min-width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-1 img{
+  width: 175px;
+  height: 258px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.card-1{
+  display: flex;
+}
+.card-2{
+  margin-left: 25px
+}
+h2{
+  padding-top: 20px;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+}
+p{
+  padding-top: 40px;
+  word-spacing: 1px;
+}
+.card-2 .locate{
+  padding-top: 10px;
+}
+.card-3{
+  display: flex;
+  padding-top: 10px;
+}
+
+
+
+@media screen and (max-width: 750px) {
+  .card{
+    flex-direction: column;
+    text-align: center;
+
+    padding-left: 20px;
+  }
+
+  .card-1 img{
+    width: 255px;
+    height: 300px;
+  }
+  .card-1{
+    flex-direction: column;
+  }
+  .card-2{
+    margin: 0;
+  }
+
+  .card-3{
+    display: flex;
+    justify-content: center;
+  }
+}
